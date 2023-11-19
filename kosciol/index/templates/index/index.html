@@ -1,10 +1,16 @@
 <!DOCTYPE html>
+{% load static %}
 <html>
     <head>
+        {% load compress %}
+
+        {% compress css %}
+            <link rel="stylesheet" type="text/x-scss" href="{% static 'scss/style.scss' %}" media = 'screen'> 
+        {% endcompress %}
         
     </head>
 
     <body>
-        
+        <h1>kupa</h1>
     </body>
 </html>
