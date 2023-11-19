@@ -11,6 +11,16 @@
     </head>
 
     <body>
-        <h1>kupa</h1>
+        {% for post in posts %}
+            <div class = "post">
+                <div>
+                    post.title
+                </div>
+
+                <div>
+                    post.text
+                </div>
+            </div>
+        {% endfor %}
     </body>
 </html>

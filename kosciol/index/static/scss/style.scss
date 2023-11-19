@@ -1,13 +1,37 @@
 
 $color1: #b3a447;
 $color2: #689ee3;
-$color3: #704c1c;
+$color3: #bd700c;
+$color_background: #a8a8a7;
 
 
-// a.logo {
-//     color:red
-// }
+body{
+    background-color: $color_background;
+    // font-family: 'Courier New', monospace;
+}
 
-// div.post{
-    
-// }
+a.logo {
+    color: black;
+    padding: 20px;
+    justify-content: center;
+    align-items: center;
+    :hover{
+        color: $color3;
+    }
+
+}
+
+div.post{
+    font-size: large;
+    color: black;
+    padding: 20px;
+    justify-content: center;
+    align-items: center;
+    size: 100px;
+}
+
+div.post.title{
+    background-color: $color_background;
+    color: $color3;
+
+}

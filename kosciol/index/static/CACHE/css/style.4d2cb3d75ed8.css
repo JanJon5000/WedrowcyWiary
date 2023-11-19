@@ -1,0 +1,16 @@
+/* line 7, c:/vscode/jchurch/kosciol/index/static/scss/style.scss */
+a.logo {
+  color: #b3a447;
+  padding: 20px;
+  justify-content: center;
+  align-items: center; }
+  /* line 13, c:/vscode/jchurch/kosciol/index/static/scss/style.scss */
+  a.logohover {
+    color: #689ee3; }
+
+/* line 18, c:/vscode/jchurch/kosciol/index/static/scss/style.scss */
+div.post {
+  color: #b3a447;
+  padding: 20px;
+  justify-content: center;
+  align-items: center; }

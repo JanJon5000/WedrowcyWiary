@@ -1,0 +1,25 @@
+/* line 8, c:/vscode/jchurch/kosciol/index/static/scss/style.scss */
+body {
+  font-family: 'Courier New', monospace;
+  background-color: #a8a8a7; }
+
+/* line 13, c:/vscode/jchurch/kosciol/index/static/scss/style.scss */
+a.logo {
+  color: #b3a447;
+  padding: 20px;
+  justify-content: center;
+  align-items: center; }
+  /* line 18, c:/vscode/jchurch/kosciol/index/static/scss/style.scss */
+  a.logo :hover {
+    color: #704c1c; }
+
+/* line 24, c:/vscode/jchurch/kosciol/index/static/scss/style.scss */
+div.post {
+  color: #b3a447;
+  padding: 20px;
+  justify-content: center;
+  align-items: center; }
+
+/* line 31, c:/vscode/jchurch/kosciol/index/static/scss/style.scss */
+div.post.title {
+  color: #704c1c; }
