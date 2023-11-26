@@ -7,7 +7,7 @@ $color_background: #a8a8a7;
 
 body{
     background-color: $color_background;
-    // font-family: 'Courier New', monospace;
+    //font-family: 'Courier New', monospace;
 }
 
 a.logo {
@@ -28,6 +28,20 @@ div.post{
     justify-content: center;
     align-items: center;
     size: 100px;
+    text-align: center;
+
+    .title{
+        background-color: $color_background;
+        font-size: 50px;
+    }
+
+    .text{
+        background-color: $color_background;
+        max-width: 700px;
+        word-wrap: break-word;
+        overflow-wrap: break-word;
+        white-space: pre-line;
+    }
 }
 
 div.post.title{
