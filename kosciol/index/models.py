@@ -5,8 +5,8 @@ from django.utils import timezone
 
 class Post(models.Model):
     title = models.CharField(max_length=250)
-    text = models.TextField(max_length=250)
-    slug = models.SlugField()
+    text = models.TextField(max_length=10000)
+    googleMap = models.TextField(max_length=1000, default='')
 
     published = models.DateField(default=timezone.now)
     created = models.DateTimeField(auto_now_add=True)

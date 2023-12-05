@@ -4,48 +4,30 @@ $color2: #689ee3;
 $color3: #bd700c;
 $color_background: #a8a8a7;
 
+// body {
+//     text-align: center; /* Center-aligns all text */
+// }
 
-body{
-    background-color: $color_background;
-    //font-family: 'Courier New', monospace;
-}
-
-a.logo {
-    color: black;
-    padding: 20px;
-    justify-content: center;
-    align-items: center;
-    :hover{
-        color: $color3;
-    }
-
-}
-
-div.post{
-    font-size: large;
-    color: black;
-    padding: 20px;
-    justify-content: center;
-    align-items: center;
-    size: 100px;
-    text-align: center;
-
-    .title{
-        background-color: $color_background;
-        font-size: 50px;
-    }
-
-    .text{
-        background-color: $color_background;
-        max-width: 700px;
-        word-wrap: break-word;
+div{
+    .content {
+        max-width: 400px; /* Adjust as needed */
+        margin: 40px auto; /* Centers the content with left and right margins */
+        text-align: left; /* Left-aligns text within the centered container */
+        padding: 0 20px; /* Optional: Add left and right padding for better readability */
         overflow-wrap: break-word;
-        white-space: pre-line;
     }
-}
+    
+    .title{
+        max-width: 400px; /* Adjust as needed */
+        margin: 40px auto; /* Centers the content with left and right margins */
+        text-align: left; /* Left-aligns text within the centered container */
+        padding: 0 20px;
+    }
 
-div.post.title{
-    background-color: $color_background;
-    color: $color3;
-
+    .date{
+        margin: 40px auto; /* Centers the content with left and right margins */
+        text-align: left; /* Left-aligns text within the centered container */
+        padding: 0 20px;
+        max-width: 400px;
+    }
 }

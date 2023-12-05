@@ -13,12 +13,18 @@
     <body>
         {% for post in posts %}
             <div class = "post">
-                <div class = "title">
+                <div class = "content">
                     {{ post.title }}
                 </div>
-
-                <div class = 'text'>
+                <div>
+                    <iframe src="{{ post.googleMap }}" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+                </div>
+                <div class = 'content'>
                     {{ post.text }}
+                </div>
+
+                <div class = "date">
+                    {{ post.published }}
                 </div>
             </div>
         {% endfor %}
