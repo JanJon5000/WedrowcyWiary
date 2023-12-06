@@ -1,0 +1,21 @@
+/* line 7, c:/vscode/jchurch/kosciol/index/static/scss/style.scss */
+table {
+  margin: auto auto;
+  align-items: center;
+  vertical-align: middle;
+  padding: 20px; }
+  /* line 12, c:/vscode/jchurch/kosciol/index/static/scss/style.scss */
+  table .content {
+    max-width: 300px;
+    text-align: left;
+    overflow-wrap: break-word; }
+  /* line 18, c:/vscode/jchurch/kosciol/index/static/scss/style.scss */
+  table .title {
+    max-width: 400px;
+    margin: 40px auto;
+    text-align: left; }
+  /* line 24, c:/vscode/jchurch/kosciol/index/static/scss/style.scss */
+  table .date {
+    margin: 40px auto;
+    text-align: left;
+    max-width: 400px; }

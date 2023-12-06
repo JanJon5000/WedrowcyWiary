@@ -1,0 +1,35 @@
+/* line 7, c:/vscode/jchurch/kosciol/index/static/scss/style.scss */
+body {
+  text-align: center;
+  /* Center-aligns all text */ }
+
+/* line 11, c:/vscode/jchurch/kosciol/index/static/scss/style.scss */
+table {
+  margin: auto auto;
+  /* Centers the content with left and right margins */
+  align-items: center;
+  vertical-align: middle;
+  padding: 20px; }
+  /* line 16, c:/vscode/jchurch/kosciol/index/static/scss/style.scss */
+  table .content {
+    max-width: 300px;
+    /* Adjust as needed */
+    text-align: left;
+    /* Left-aligns text within the centered container */
+    /* Optional: Add left and right padding for better readability */
+    overflow-wrap: break-word; }
+  /* line 23, c:/vscode/jchurch/kosciol/index/static/scss/style.scss */
+  table .title {
+    max-width: 400px;
+    /* Adjust as needed */
+    margin: 40px auto;
+    /* Centers the content with left and right margins */
+    text-align: left;
+    /* Left-aligns text within the centered container */ }
+  /* line 30, c:/vscode/jchurch/kosciol/index/static/scss/style.scss */
+  table .date {
+    margin: 40px auto;
+    /* Centers the content with left and right margins */
+    text-align: left;
+    /* Left-aligns text within the centered container */
+    max-width: 400px; }

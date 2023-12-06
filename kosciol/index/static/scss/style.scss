@@ -3,31 +3,49 @@ $color1: #b3a447;
 $color2: #689ee3;
 $color3: #bd700c;
 $color_background: #a8a8a7;
+@import url('https://fonts.googleapis.com/css2?family=Garamond:wght@400&display=swap');
+body{
+    font-family: 'Garamond', serif;
+}
 
-// body {
-//     text-align: center; /* Center-aligns all text */
-// }
+table{
+    width : 50%;
+    margin: auto auto; 
+    align-items: center;
+    vertical-align: middle;
+    border: 5px solid $color2;
+    background-color: $color2;
+}
+td{
+    padding: 20px;
+    align-items: center;
+    width: 300px;
+}
 
-div{
-    .content {
-        max-width: 400px; /* Adjust as needed */
-        margin: 40px auto; /* Centers the content with left and right margins */
-        text-align: left; /* Left-aligns text within the centered container */
-        padding: 0 20px; /* Optional: Add left and right padding for better readability */
-        overflow-wrap: break-word;
-    }
-    
-    .title{
-        max-width: 400px; /* Adjust as needed */
-        margin: 40px auto; /* Centers the content with left and right margins */
-        text-align: left; /* Left-aligns text within the centered container */
-        padding: 0 20px;
-    }
+.content {
+    max-width: 300px;
+    text-align: left; 
+    overflow-wrap: break-word;
+    vertical-align: top;
+    font-family: 'Garamond', serif;
+    font-size: large;
+}
+.title{
+    text-align: center;
+    color: $color3;
+    background-color: white;
+    font-size: 50px;
+    max-width: 400px; 
+    margin: 40px auto; 
+}
+.date{
+    background-color: white;
+    margin: 50px auto; 
+    text-align: center; 
+    max-width: 400px;
+}
 
-    .date{
-        margin: 40px auto; /* Centers the content with left and right margins */
-        text-align: left; /* Left-aligns text within the centered container */
-        padding: 0 20px;
-        max-width: 400px;
-    }
+.PageTitle{
+    color: #b3a447;
+    font-size: 100px;
 }

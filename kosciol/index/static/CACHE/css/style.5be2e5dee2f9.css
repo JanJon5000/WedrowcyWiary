@@ -1,0 +1,33 @@
+@import url("https://fonts.googleapis.com/css2?family=Garamond:wght@400&display=swap");
+/* line 8, c:/vscode/jchurch/kosciol/index/static/scss/style.scss */
+table {
+  width: 50%;
+  margin: auto auto;
+  align-items: center;
+  vertical-align: middle;
+  border: 5px solid #3498db;
+  background-color: #3498db; }
+
+/* line 16, c:/vscode/jchurch/kosciol/index/static/scss/style.scss */
+td {
+  padding: 20px;
+  align-items: center;
+  width: 300px; }
+
+/* line 22, c:/vscode/jchurch/kosciol/index/static/scss/style.scss */
+.content {
+  max-width: 300px;
+  text-align: left;
+  overflow-wrap: break-word; }
+
+/* line 27, c:/vscode/jchurch/kosciol/index/static/scss/style.scss */
+.title {
+  max-width: 400px;
+  margin: 40px auto;
+  text-align: left; }
+
+/* line 32, c:/vscode/jchurch/kosciol/index/static/scss/style.scss */
+.date {
+  margin: 40px auto;
+  text-align: left;
+  max-width: 400px; }

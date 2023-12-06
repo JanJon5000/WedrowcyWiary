@@ -7,25 +7,53 @@
         {% compress css %}
             <link rel="stylesheet" type="text/x-scss" href="{% static 'scss/style.scss' %}" media = 'screen'> 
         {% endcompress %}
+        <table>
+            <tr>
+                <th><img src="https://piskel-imgstore-b.appspot.com/img/eb5e94b0-947d-11ee-9a5c-3f4ec78198ac.gif" alt="this slowpoke moves"  width="100%" /></th>
+                <th class="PageTitle">Wędrowcy wiary</th>
+                <th><img src="https://piskel-imgstore-b.appspot.com/img/eb5e94b0-947d-11ee-9a5c-3f4ec78198ac.gif" alt="this slowpoke moves"  width="100%" /></th>
+            </tr>
+        </table>
         
     </head>
 
     <body>
         {% for post in posts %}
             <div class = "post">
-                <div class = "content">
-                    {{ post.title }}
-                </div>
-                <div>
-                    <iframe class="g-maps" src="{{ post.googleMap }}" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
-                </div>
-                <div class = 'content'>
-                    {{ post.text }}
-                </div>
+                <table>
+                    <tr>
+                        <td class="title">
+                            {{ post.title }}
+                        </td>
+                        <td class="date">
+                            {{ post.published }}
+                        </td>
+                    </tr>
 
-                <div class = "date">
-                    {{ post.published }}
-                </div>
+                    <tr>
+                        <td class="content">
+                            {{ post.text }}
+                        </td>
+                        <td class="content">
+                            {{ post.googleMap|safe }}
+                        </td>
+                    </tr>
+                </table>
+                <!-- <div>
+                    <div class = "content">
+                        {{ post.title }}
+                    </div>
+                    <div class = 'content'>
+                        <iframe class="g-maps" src="{{ post.googleMap|safe }}" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+                    </div>
+                    <div class = 'content'>
+                        {{ post.text }}
+                    </div>
+    
+                    <div class = "date">
+                        {{ post.published }}
+                    </div>
+                </div> -->
             </div>
         {% endfor %}
     </body>
