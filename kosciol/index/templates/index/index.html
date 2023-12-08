@@ -1,23 +1,26 @@
 <!DOCTYPE html>
 {% load static %}
-<html>
+<html lang="pl">
     <head>
+        
         {% load compress %}
 
         {% compress css %}
             <link rel="stylesheet" type="text/x-scss" href="{% static 'scss/style.scss' %}" media = 'screen'> 
         {% endcompress %}
-        <table>
+        <table class="navbar">
             <tr>
-                <th><img src="https://piskel-imgstore-b.appspot.com/img/eb5e94b0-947d-11ee-9a5c-3f4ec78198ac.gif" alt="this slowpoke moves"  width="100%" /></th>
+                <th><img src="https://piskel-imgstore-b.appspot.com/img/eb5e94b0-947d-11ee-9a5c-3f4ec78198ac.gif" alt="this slowpoke moves" height="100px" width="50%"/></th>
                 <th class="PageTitle">Wędrowcy wiary</th>
-                <th><img src="https://piskel-imgstore-b.appspot.com/img/eb5e94b0-947d-11ee-9a5c-3f4ec78198ac.gif" alt="this slowpoke moves"  width="100%" /></th>
+                <th><img src="https://piskel-imgstore-b.appspot.com/img/eb5e94b0-947d-11ee-9a5c-3f4ec78198ac.gif" alt="this slowpoke moves" height="100px" width="50%"/></th>
             </tr>
         </table>
-        
     </head>
 
     <body>
+        <div class="spaceholder">
+
+        </div>
         {% for post in posts %}
             <div class = "post">
                 <table>
@@ -39,22 +42,8 @@
                         </td>
                     </tr>
                 </table>
-                <!-- <div>
-                    <div class = "content">
-                        {{ post.title }}
-                    </div>
-                    <div class = 'content'>
-                        <iframe class="g-maps" src="{{ post.googleMap|safe }}" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
-                    </div>
-                    <div class = 'content'>
-                        {{ post.text }}
-                    </div>
-    
-                    <div class = "date">
-                        {{ post.published }}
-                    </div>
-                </div> -->
             </div>
         {% endfor %}
     </body>
+    <script src="{% static script.js %}"></script>
 </html>

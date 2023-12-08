@@ -1,0 +1,75 @@
+@import url("https://fonts.googleapis.com/css2?family=Garamond:wght@400&display=swap");
+/* line 8, c:/vscode/jchurch/kosciol/index/static/scss/style.scss */
+body {
+  font-family: 'Garamond', serif;
+  background-color: #f5d38c; }
+
+/* line 13, c:/vscode/jchurch/kosciol/index/static/scss/style.scss */
+table {
+  width: 50%;
+  margin: auto auto;
+  align-items: center;
+  vertical-align: middle; }
+
+/* line 21, c:/vscode/jchurch/kosciol/index/static/scss/style.scss */
+td {
+  padding: 10px;
+  align-items: center;
+  width: 300px; }
+
+/* line 27, c:/vscode/jchurch/kosciol/index/static/scss/style.scss */
+.content {
+  max-width: 300px;
+  text-align: left;
+  overflow-wrap: break-word;
+  vertical-align: top;
+  font-family: 'Garamond', serif;
+  font-size: large; }
+
+/* line 36, c:/vscode/jchurch/kosciol/index/static/scss/style.scss */
+.title {
+  font-family: 'Garamond', serif;
+  text-align: center;
+  color: #bd700c;
+  background-color: #f5d38c;
+  font-size: 50px;
+  max-width: 100%;
+  margin: 40px auto; }
+
+/* line 46, c:/vscode/jchurch/kosciol/index/static/scss/style.scss */
+.date {
+  font-family: 'Garamond', serif;
+  font-size: 30px;
+  background-color: #f5d38c;
+  margin: 50px auto;
+  text-align: center;
+  max-width: 400px; }
+
+/* line 55, c:/vscode/jchurch/kosciol/index/static/scss/style.scss */
+.PageTitle {
+  color: #ffee00;
+  font-size: 100px;
+  max-width: 100%;
+  overflow-wrap: break-word; }
+
+/* line 62, c:/vscode/jchurch/kosciol/index/static/scss/style.scss */
+.navbar {
+  position: fixed;
+  width: 100%;
+  top: 0;
+  z-index: 1000;
+  height: 100px;
+  background-color: #689ee3; }
+
+/* line 71, c:/vscode/jchurch/kosciol/index/static/scss/style.scss */
+.spaceholder {
+  height: 170px; }
+
+/* line 75, c:/vscode/jchurch/kosciol/index/static/scss/style.scss */
+.post {
+  width: 100%;
+  height: 100%;
+  border-left: 2px solid black;
+  border-right: 2px solid black;
+  margin-left: auto;
+  margin-right: auto; }

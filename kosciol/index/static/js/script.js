@@ -1,0 +1,1 @@
+document.querySelector("table.navbar")?.addEventListener("click", location.reload())
