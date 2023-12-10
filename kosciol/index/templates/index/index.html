@@ -11,7 +11,7 @@
         <table class="navbar">
             <tr>
                 <th><img src="https://piskel-imgstore-b.appspot.com/img/eb5e94b0-947d-11ee-9a5c-3f4ec78198ac.gif" alt="this slowpoke moves" height="100px" width="50%"/></th>
-                <th class="PageTitle">Wędrowcy wiary</th>
+                <th><a class="PageTitle" href="/">Wędrowcy wiary</a></th>
                 <th><img src="https://piskel-imgstore-b.appspot.com/img/eb5e94b0-947d-11ee-9a5c-3f4ec78198ac.gif" alt="this slowpoke moves" height="100px" width="50%"/></th>
             </tr>
         </table>
@@ -26,10 +26,7 @@
                 <table>
                     <tr>
                         <td class="title">
-                            {{ post.title }}
-                        </td>
-                        <td class="date">
-                            {{ post.published }}
+                            {{ post.title }} <none class="date">{{ post.published }}</none> 
                         </td>
                     </tr>
 
@@ -42,6 +39,7 @@
                         </td>
                     </tr>
                 </table>
+                <p></p>
             </div>
         {% endfor %}
     </body>
