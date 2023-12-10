@@ -37,8 +37,8 @@ INSTALLED_APPS = [
     'django.contrib.sessions',
     'django.contrib.messages',
     'django.contrib.staticfiles',
-    'index',
-    'compressor',
+    'index'
+    #'compressor',
 ]
 
 MIDDLEWARE = [
@@ -128,6 +128,6 @@ STATIC_ROOT = os.path.join(BASE_DIR, 'index\\static')
 
 STATICFILES_FINDERS = ['compressor.finders.CompressorFinder']
 
-COMPRESS_PRECOMPILERS = (
-    ('text/x-scss', 'django_libsass.SassCompiler'),
-)
+# COMPRESS_PRECOMPILERS = (
+#     ('text/x-scss', 'django_libsass.SassCompiler'),
+# )
