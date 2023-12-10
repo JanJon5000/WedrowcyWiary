@@ -128,14 +128,8 @@ STATIC_ROOT = os.path.join(BASE_DIR, 'index\\static')
 
 # STATICFILES_FINDERS = ['compressor.finders.CompressorFinder']
 
-<<<<<<< HEAD
 COMPRESS_PRECOMPILERS = (
     ('text/x-scss', 'django_libsass.SassCompiler'),
 )
 MEDIA_URL = '/media/'
 MEDIA_ROOT = Path(BASE_DIR / 'media')
-=======
-# COMPRESS_PRECOMPILERS = (
-#     ('text/x-scss', 'django_libsass.SassCompiler'),
-# )
->>>>>>> bce707834ed42d4fb1b6399f9d21e235e4770a4e
