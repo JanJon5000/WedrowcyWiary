@@ -41,6 +41,7 @@ td {
     background-color: white;
     text-align: center;
     max-width: 400px;
+    white-space: nowrap;
 }
 
 .PageTitle {
